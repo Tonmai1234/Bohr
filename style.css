@@ -6,7 +6,8 @@
 }
 
 body {
-    min-width: 100vh;
+    min-width: 375px;
+    max-width: 1920px;
     background: url('bg2.jpg') no-repeat;
     background-size: auto;
     background-position: center;
@@ -17,6 +18,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    min-width: 480px;
+    max-width: 1920px;
     padding: 20px 100px;
     background-color: white;
     display: flex;
@@ -66,15 +69,22 @@ body {
 
 .info1 {
     margin-top: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
     font-size: 100px;
     animation-name: title1;
     animation-duration: 1.5s;
     color: white;
+    max-width: 100%;
+    min-width: 20%;
+    line-height: 100%;
 }
 
 .slogan {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
     color: white;
     margin-bottom: 20px;
 }
@@ -105,6 +115,7 @@ body {
     top: 30px;
 }
 
+
 @keyframes nav1 {
     from {opacity: 0%;}
     to {opacity: 100%;}
@@ -123,4 +134,8 @@ body {
 @keyframes btn1 {
     from {background-color: green;}
     to {background-color: white;}
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    img { display: none; }
 }

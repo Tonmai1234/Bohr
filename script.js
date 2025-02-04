@@ -12,13 +12,15 @@ function initMap() {
     '<div><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"></div>' +
     '<div style="font-size: 16px; font-weight: 500;">ห้องน้ำ</div>' +
     '<div><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"></div>' +
-    '<center><img src="Kimleng.jpg" style="width: 300px; height: 200px; margin-top: 20px;"></center>'
+    '<center><img src="Kimleng.jpg" style="width: 300px; height: 200px; margin-top: 20px;"></center>' +
+    '<center><button type="button" style="border-radius: 15px; border: none; background-color: black; color: white; padding: 5px 30px; cursor: pointer;" onclick="function formatTime(number) {return number < 10 ? `0` + number : number;} let now = new Date(); let hours = formatTime(now.getHours()); let minutes = formatTime(now.getMinutes()); let seconds = formatTime(now.getSeconds()); window.alert(`Arrived at ${hours}:${minutes}:${seconds}`)">ถึงที่หมาย</button></center>'
     ;
 
     const contentStringKasetsart =
     '<center><h1>Kasetsart University</h1></center>' +
     '<center><p>"a popular university"</p></center>' +
-    '<center><img src="Kasetsart.jpg" style="width: 200px; height: 200px; margin-top: 20px;"></center>'
+    '<center><img src="Kasetsart.jpg" style="width: 200px; height: 200px; margin-top: 20px;"></center>' +
+    '<center><button type="button" style="border-radius: 15px; border: none; background-color: black; color: white; padding: 5px 30px; cursor: pointer;" onclick="function formatTime(number) {return number < 10 ? `0` + number : number;} let now = new Date(); let hours = formatTime(now.getHours()); let minutes = formatTime(now.getMinutes()); let seconds = formatTime(now.getSeconds()); window.alert(`Arrived at ${hours}:${minutes}:${seconds}`)">ถึงที่หมาย</button></center>'
     ;
 
     const contentStringPttRat =
@@ -30,7 +32,8 @@ function initMap() {
     '<div><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"></div>' +
     '<div style="font-size: 16px; font-weight: 500;">ห้องน้ำ</div>' +
     '<div><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"></div>' +
-    '<center><img src="PttRat.jpg" style="width: 300px; height: 200px; margin-top: 20px;"></center>'
+    '<center><img src="PttRat.jpg" style="width: 300px; height: 200px; margin-top: 20px;"></center>' +
+    '<center><button type="button" style="border-radius: 15px; border: none; background-color: black; color: white; padding: 5px 30px; cursor: pointer;" onclick="function formatTime(number) {return number < 10 ? `0` + number : number;} let now = new Date(); let hours = formatTime(now.getHours()); let minutes = formatTime(now.getMinutes()); let seconds = formatTime(now.getSeconds()); window.alert(`Arrived at ${hours}:${minutes}:${seconds}`)">ถึงที่หมาย</button></center>'
     ;
 
     const contentStringEV =
@@ -42,7 +45,8 @@ function initMap() {
     '<div><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"></div>' +
     '<div style="font-size: 16px; font-weight: 500;">ห้องน้ำ</div>' +
     '<div><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"></div>' +
-    '<center><img src="EV.jpg" style="width: 300px; height: 200px; margin-top: 20px;"></center>'
+    '<center><img src="EV.jpg" style="width: 300px; height: 200px; margin-top: 20px;"></center>' +
+    '<center><button type="button" style="border-radius: 15px; border: none; background-color: black; color: white; padding: 5px 30px; cursor: pointer;" onclick="function formatTime(number) {return number < 10 ? `0` + number : number;} let now = new Date(); let hours = formatTime(now.getHours()); let minutes = formatTime(now.getMinutes()); let seconds = formatTime(now.getSeconds()); window.alert(`Arrived at ${hours}:${minutes}:${seconds}`)">ถึงที่หมาย</button></center>'
     ;
 
     const contentStringPTTCharging =
@@ -54,13 +58,14 @@ function initMap() {
     '<div><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"></div>' +
     '<div style="font-size: 16px; font-weight: 500;">ห้องน้ำ</div>' +
     '<div><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"><img src="Star.png" style="width: 12px; height: 12px;"></div>' +
-    '<center><img src="PTTCharging.jpg" style="width: 300px; height: 200px; margin-top: 20px;"></center>'
+    '<center><img src="PTTCharging.jpg" style="width: 300px; height: 200px; margin-top: 20px;"></center>' +
+    '<center><button type="button" style="border-radius: 15px; border: none; background-color: black; color: white; padding: 5px 30px; cursor: pointer;" onclick="function formatTime(number) {return number < 10 ? `0` + number : number;} let now = new Date(); let hours = formatTime(now.getHours()); let minutes = formatTime(now.getMinutes()); let seconds = formatTime(now.getSeconds()); window.alert(`Arrived at ${hours}:${minutes}:${seconds}`)">ถึงที่หมาย</button></center>'
     ;
     // Create an info window to share between markers.
 
     const infowindow = new google.maps.InfoWindow({
         content: contentStringKimleng,
-        ariaLabel: "Kimleng",
+        ariaLabel: "แม่กิมลั้ง สาขาฝั่งล่องใต้",
     });
     
     const infowindow2 = new google.maps.InfoWindow({
@@ -87,7 +92,7 @@ function initMap() {
     const marker = new google.maps.Marker({
         position: { lat: 12.927260561692894,  lng: 99.90635573852367 },
         map,
-        title: "Kimleng",
+        title: "แม่กิมลั้ง สาขาฝั่งล่องใต้",
     });
 
     const marker2 = new google.maps.Marker({
@@ -113,12 +118,25 @@ function initMap() {
       map,
       title: "PTT Charging Station สถานีชาร์จรถ",
     });
+
+    const historyList = document.getElementById('history-list');
+    function logClick(title) {
+        let now = new Date();
+        let hours = now.getHours();
+        let minutes = now.getMinutes();
+        let seconds = now.getSeconds();
+
+        const listItem = document.createElement('li');
+        listItem.textContent = `กำลังไปที่: ${title} เวลา: ${hours}:${minutes}:${seconds}`;
+        historyList.appendChild(listItem);
+    }
     
       marker.addListener("click", () => {
         infowindow.open({
           anchor: marker,
           map,
         });
+        logClick(marker.getTitle());
       });
 
       marker2.addListener("click", () => {
@@ -126,6 +144,7 @@ function initMap() {
           anchor: marker2,
           map,
         });
+        logClick(marker2.getTitle());
       });
 
       marker3.addListener("click", () => {
@@ -133,6 +152,7 @@ function initMap() {
           anchor: marker3,
           map,
         });
+        logClick(marker3.getTitle());
       });
 
       marker4.addListener("click", () => {
@@ -140,6 +160,7 @@ function initMap() {
           anchor: marker4,
           map,
         });
+        logClick(marker4.getTitle());
       });
 
       marker5.addListener("click", () => {
@@ -147,6 +168,7 @@ function initMap() {
           anchor: marker5,
           map,
         });
+        logClick(marker5.getTitle());
       });
   }
   

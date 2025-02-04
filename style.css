@@ -115,6 +115,15 @@ body {
     top: 30px;
 }
 
+#history {
+    margin-top: 100px;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
 
 @keyframes nav1 {
     from {opacity: 0%;}
